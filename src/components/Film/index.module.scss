@@ -1,0 +1,35 @@
+.film__container {
+  padding: 0 2px;
+
+  &:hover {
+    .film__button {
+      visibility: visible;
+    }
+  }
+
+  .film__img {
+    margin-bottom: 5px;
+    img {
+      height: 233px;
+    }
+  }
+
+  .film__button {
+    visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: grey;
+    }
+
+    .button__txt {
+      padding: 10px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
