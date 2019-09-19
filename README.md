@@ -16,7 +16,7 @@ Clone this and run npm install then npm start, you can see the list.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run ###npm install to install all Dependencies first, then:
 
 ### `npm start`
 
